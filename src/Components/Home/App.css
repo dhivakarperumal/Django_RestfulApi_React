@@ -1,0 +1,15 @@
+.home-page {
+  background-image: url('../img/1.avif');
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat;
+  height: 100vh; /* Sets the height to fill the viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white; /* Text color contrast with the background */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow for better readability */
+  text-align: center;
+}
+
